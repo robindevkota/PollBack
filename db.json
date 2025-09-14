@@ -1,0 +1,120 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "citizenship": "1234",
+      "role": "voter"
+    },
+    {
+      "id": "3",
+      "citizenship": "12345",
+      "role": "voter"
+    },
+    {
+      "id": "4",
+      "citizenship": "123456",
+      "role": "voter"
+    },
+    {
+      "id": "5",
+      "citizenship": "1234567",
+      "role": "voter"
+    },
+    {
+      "id": "6",
+      "citizenship": "12345678",
+      "role": "voter"
+    }
+  ],
+  "polls": [
+    {
+      "id": "p1",
+      "title": "Home Minister",
+      "description": "Select the next Home Minister",
+      "options": [
+        {
+          "text": "Kulman",
+          "count": 1
+        },
+        {
+          "text": "Promad",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "title": "Education Minister",
+      "description": "Choose the Education Minister",
+      "options": [
+        {
+          "text": "Alice",
+          "count": 2
+        },
+        {
+          "text": "Bob",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "title": "Finance Minister",
+      "description": "Select the Finance Minister",
+      "options": [
+        {
+          "text": "Ramesh",
+          "count": 2
+        },
+        {
+          "text": "Suresh",
+          "count": 0
+        }
+      ]
+    }
+  ],
+  "votes": [
+    {
+      "id": "3e25",
+      "pollId": "p1",
+      "option": "Kulman",
+      "citizenship": "1234"
+    },
+    {
+      "id": "ecd3",
+      "pollId": "p2",
+      "option": "Alice",
+      "citizenship": "1234"
+    },
+    {
+      "id": "a00b",
+      "pollId": "p3",
+      "option": "Ramesh",
+      "citizenship": "1234"
+    },
+    {
+      "id": "076b",
+      "pollId": "p1",
+      "option": "Promad",
+      "citizenship": "123456"
+    },
+    {
+      "id": "3d8c",
+      "pollId": "p2",
+      "option": "Alice",
+      "citizenship": "123456"
+    },
+    {
+      "id": "879a",
+      "pollId": "p3",
+      "option": "Ramesh",
+      "citizenship": "123456"
+    }
+  ]
+}
